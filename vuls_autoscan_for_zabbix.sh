@@ -123,6 +123,7 @@ update jvn
 #update_oval debian "7 8 9 10"
 #update_oval ubuntu "12 14 16"
 #update_oval oracle
+#update_oval alpine "3.3 3.4 3.5 3.6"
 
 ## vuls scan ##
 scan
