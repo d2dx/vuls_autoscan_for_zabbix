@@ -102,7 +102,7 @@ rotate(){
   agoYear=`date -d "$firstDay 1 months ago" '+%Y'`
   agoMonth=`date -d "$firstDay 1 months ago" '+%m'`
   mkdir ${VULS_LOG}/$agoYear-$agoMonth > /dev/null 2>&1
-  mv ${VULS_LOG}/$agoYear$agoMonth* ${VULS_LOG}/$agoYear-$agoMonth > /dev/null 2>&1
+  mv ${VULS_LOG}/$agoYear-$agoMonth* ${VULS_LOG}/$agoYear-$agoMonth > /dev/null 2>&1
 }
 
 
